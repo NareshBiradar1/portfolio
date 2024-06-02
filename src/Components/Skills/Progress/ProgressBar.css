@@ -1,5 +1,17 @@
+
 .progress-bar {
-    background-color:  green;
-    height:  30px;
-    transition: width 10s ease-in-out;
-}
+    background-color: green;
+    height: 30px;
+    width: 0;
+    animation: increaseWidth 5s ease-in-out forwards;
+  }
+  
+  @keyframes increaseWidth {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Set the desired width here */
+    }
+  }
+  
