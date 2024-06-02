@@ -1,5 +1,7 @@
 import React from 'react';
-import './Footer.css'; // Import the CSS file for styling
+import './Footer.css'; 
+import { FaHeart, FaStar } from 'react-icons/fa'; 
+
 
 const Footer = () => {
   return (
@@ -7,8 +9,12 @@ const Footer = () => {
       <div className="footer-content">
         <span>Made by Naresh Biradar</span>
         <div className="icon-container">
-          {/* Add your preferred icon component or image here */}
-          <img src="your-icon.png" alt="Icon" className="icon" />
+        <a href="#" className="icon-link" style={{ color: 'red' }}>
+            <FaHeart className="icon" />
+        </a>
+        <a href="#" className="icon-link" style={{ color: 'gold' }}>
+            <FaStar className="icon" />
+        </a>
         </div>
       </div>
     </footer>

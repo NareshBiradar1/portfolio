@@ -1,5 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
+import {  FaGithub} from 'react-icons/fa'; // Importing the icons
+
 
 const ProjectCard = ({ name, description, technologies, githubUrl }) => {
   return (
@@ -12,9 +14,9 @@ const ProjectCard = ({ name, description, technologies, githubUrl }) => {
         ))}
       </ul>
       <div className="project-github">
-        <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-          <img src="github-icon.png" alt="GitHub Repo" className="github-icon" />
-        </a>
+      <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+            <FaGithub className="icon" />
+          </a>
       </div>
     </div>
   );
