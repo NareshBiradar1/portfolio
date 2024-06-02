@@ -3,7 +3,7 @@
     background-color: green;
     height: 30px;
     width: 0;
-    animation: increaseWidth 5s ease-in-out forwards;
+    animation: increaseWidth 2s ease-in-out forwards;
   }
   
   @keyframes increaseWidth {
@@ -11,7 +11,7 @@
       width: 0;
     }
     to {
-      width: 100%; /* Set the desired width here */
+      width: var(--progress);
     }
   }
   

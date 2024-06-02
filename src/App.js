@@ -4,18 +4,25 @@ import SkillsPage from './Components/Skills/SkillPage';
 import Home from'./Components/HomePage/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutPage from './Components/AboutPage/About';
+import ProjectsPage from './Components/ProjectsPage/ProjectPage'
+import Footer from './Components/Footer/Footer';
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <><NavBar/><Home/></>
+    element: <><NavBar/><Home/><Footer/></>
   },
   {
     path: "/skills",
-    element: <><NavBar/><SkillsPage /></>
+    element: <><NavBar/><SkillsPage /><Footer/></>
   },
   {
     path : "/about",
-    element : <><NavBar/><AboutPage/></>
+    element : <><NavBar/><AboutPage/><Footer/></>
+  },
+  {
+    path : "/projects",
+    element : <><NavBar/><ProjectsPage/><Footer/></>
   }
 ])
 

@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Image Editor",
+      "description": "Developed a feature-rich image editor in Java, capable of performing essential image manipulations such as cropping, adjusting brightness, and rotating images. This tool offers efficient processing to enhance and transform digital images seamlessly.",
+      "technologies": ["Java"],
+      "githubUrl": "https://github.com/NareshBiradar1/Image-Editor"
+    },
+    {
+      "name": "Kanban Board",
+      "description": "Created a dynamic Kanban Board application to streamline task management and enhance productivity. This intuitive to-do application allows users to organize tasks into customizable columns, track progress, and collaborate effectively. It's designed to optimize workflow and keep projects on track.",
+      "technologies": ["JavaScript", "HTML","CSS"],
+      "githubUrl": "https://github.com/NareshBiradar1/Kanban-Board"
+    },
+    {
+      "name": "TIC TAC TOE",
+      "description": "Designed and implemented a classic Tic Tac Toe game using Java. This interactive game  allows two players to engage in the timeless strategy game. It includes logic to handle game states, ensuring an engaging and challenging experience.",
+      "technologies": ["Java", "Spring Boot"],
+      "githubUrl": "https://github.com/NareshBiradar1/TIC-TAC-TOE"
+    },
+    {
+      "name": "Restaurant Reservation System",
+      "description": "Developed a robust backend system in Java for managing restaurant reservations. This application efficiently handles bookings, assigns table numbers, and manages staff schedules. It ensures seamless operations and enhances customer satisfaction by streamlining the reservation process.",
+      "technologies": ["Java", "Spring Boot", "MySQL"],
+      "githubUrl": "https://github.com/NareshBiradar1/Restaurant_Reservation_Project"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Built a personal portfolio website to showcase projects, skills, and experiences. This responsive website is designed to highlight professional achievements and provide an engaging platform for potential employers and collaborators to learn more about the developer.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "githubUrl": "https://github.com/NareshBiradar1/portfolio"
+    }
+  ]
+  

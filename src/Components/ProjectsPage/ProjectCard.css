@@ -1,0 +1,54 @@
+/* ProjectCard.css */
+
+.project-card {
+    background-color: skyblue;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .project-technologies {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .project-technology {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  
+  .project-github {
+    margin-top: 10px;
+  }
+  
+  .github-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
