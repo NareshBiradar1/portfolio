@@ -35,7 +35,7 @@ function Typing({
 
     return (
         <div className="typing-effect">
-            <p>{displayedText}</p>
+            <p id="displayedText" style={{ fontSize: '1.5rem' }}>{displayedText}</p>
         </div>
     );
 }

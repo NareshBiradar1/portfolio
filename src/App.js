@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './NavBar';
-import Typing from './Typing';
+import NavBar from './Components/NavBar';
+import SkillsPage from './Components/Skills/SkillPage';
+import Home from'./Components/HomePage/Home';
 
 function App() {
   return (
@@ -9,16 +10,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <NavBar/>
-        <Typing
-          text = {[
-            "aaaaaaaaaa",
-            "bbbbbbbbbb",
-            "cccccccccc"
-          ]}
-          typingSpeed = {100}
-          deletingSpeed={50}
-        />
       </header>
+      <Home/>
+      <SkillsPage/>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+#SkillsPage{
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 1rem; */
+}
