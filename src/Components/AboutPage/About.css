@@ -1,0 +1,20 @@
+#AboutPage{
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* #AboutPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+/* } */
+
+#main_Container{
+    width: 50%;
+}
+h1{
+    margin-left:35%;
+}
